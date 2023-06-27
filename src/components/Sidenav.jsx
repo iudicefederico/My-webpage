@@ -1,10 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  AiOutlineHome,
-  AiOutlineMail,
-  AiOutlineMenu,
-  AiOutlineProject,
-} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineMenu, AiOutlineProject } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
 import "./Sidenav.css";
 
@@ -59,19 +54,11 @@ export default function Sidenav() {
             <AiOutlineProject size={20} />
             <span className="pl-4">Projects</span>
           </a>
-          <a
-            onClick={handleNav}
-            href="#contact"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
-          >
-            <AiOutlineMail size={20} />
-            <span className="pl-4">Contact</span>
-          </a>
         </div>
       ) : (
         <div></div>
       )}
-      <div className="md:block hidden fixed top-[25%] z-10">
+      <div className="md:block hidden fixed top-[37%] z-10">
         <div className="flex flex-col">
           <a
             href="#main"
@@ -96,14 +83,6 @@ export default function Sidenav() {
           >
             <AiOutlineProject size={20} />
             <div className="tooltip">Projects</div>
-          </a>
-          <a
-            href="#contact"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 relative"
-            style={{ zIndex: 10 }}
-          >
-            <AiOutlineMail size={20} />
-            <div className="tooltip">Contact</div>
           </a>
         </div>
       </div>
