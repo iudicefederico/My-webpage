@@ -2,6 +2,12 @@ import ProjectItem from "./ProjectItem";
 
 const data = [
   {
+    img: new URL("../assets/webpage.png", import.meta.url).href,
+    tech: "ViteJS",
+    title: "My Webpage (2023)",
+    link: "https://my-webpage-two.vercel.app/",
+  },
+  {
     img: new URL("../assets/tetris.png", import.meta.url).href,
     tech: "React",
     title: "Tetris game (2023)",
