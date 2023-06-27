@@ -1,5 +1,10 @@
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 
 export default function Main() {
   const background = new URL("../assets/background.jpg", import.meta.url).href;
@@ -65,6 +70,17 @@ export default function Main() {
               rel="noopener noreferrer"
             >
               <FaGithub className="cursor-pointer" size={20} color="#171515" />
+            </a>
+            <a
+              href="mailto:iudicefederico@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaEnvelope
+                className="cursor-pointer"
+                size={20}
+                color="#ea4335"
+              />
             </a>
           </div>
         </div>
