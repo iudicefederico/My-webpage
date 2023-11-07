@@ -2,6 +2,15 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
+    company: "UADE",
+    country: "Argentina",
+    year: "august 2022/november 2023",
+    title: "Budget and Management Control Analyst",
+    duration: "4 months",
+    details:
+      "As one of the most prestigious universities, we adopt an exceptionally dynamic approach to annual budget management. Our responsibilities extend beyond budget preparation to include monthly management analyses, which involve rigorous examination of projections and historical data. This practice empowers us to evaluate goal progress and the economic performance of each program,enabling precise future projections",
+  },
+  {
     company: "99minutos",
     country: "México",
     year: "march 2022/july 2023",
