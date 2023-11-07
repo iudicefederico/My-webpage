@@ -2,11 +2,20 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
+    company: "UADE",
+    country: "Argentina",
+    year: "august 2022/november 2023",
+    title: "Budget and Management Control Analyst",
+    duration: "4 months",
+    details:
+      "As one of the most prestigious universities, we adopt an exceptionally dynamic approach to annual budget management. Our responsibilities extend beyond budget preparation to include monthly management analyses, which involve rigorous examination of projections and historical data. This practice empowers us to evaluate goal progress and the economic performance of each program,enabling precise future projections",
+  },
+  {
     company: "99minutos",
     country: "México",
-    year: "march 2022/february 2023",
+    year: "march 2022/july 2023",
     title: "Front-end Developer",
-    duration: "1 year",
+    duration: "1.5 years",
     details:
       "The company is located in the logistics area for leading brands such as Mercadolibre and Walmart, among others. As a front-end developer, I have participated in the refactoring of the company‘s website and app code, with the aim of achieving a homogeneous image and clean, easy-to-understand code. During this project, I updated the existing VanillaJS code to ReactJS and applied NextJS to use it with the MaterialUI library. After completing this project, we decided to refactor the internal HR website, where I applied Typescript to detect errors in a timely manner. As a team, we also provided online customer support to maintain a competitive quality service, especially during high-demand events such as Black Friday and Hot Sale",
   },
