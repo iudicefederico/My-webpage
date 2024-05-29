@@ -2,13 +2,22 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
+    company: "Aeroterra",
+    country: "Argentina",
+    year: "february 2024/actual job",
+    title: "Accounting Functions Analyst",
+    duration: "until now",
+    details:
+      "Located within the technology sector, the company provides Data-Science consulting and geospatial information services to top-tier companies such as Techint, Siderca, and Pampa Energía. As an Accounting Functions Analyst in the IT field, the role focuses on task automation and business knowledge to develop as a Functional Analyst within the company. The job includes supporting the administrative area and creating solutions to streamline processes.",
+  },
+  {
     company: "UADE",
     country: "Argentina",
-    year: "august 2022/november 2023",
-    title: "Budget and Management Control Analyst",
-    duration: "4 months",
+    year: "august 2023/january 2024",
+    title: "Mailing Management",
+    duration: "6 months",
     details:
-      "As one of the most prestigious universities, we adopt an exceptionally dynamic approach to annual budget management. Our responsibilities extend beyond budget preparation to include monthly management analyses, which involve rigorous examination of projections and historical data. This practice empowers us to evaluate goal progress and the economic performance of each program,enabling precise future projections",
+      "As one of the most renowned universities, our work was extremely dynamic. As a team, we were responsible not only for managing and carrying out informative mailing campaigns using HTML, CSS and Javascript, but also for participating in brainstorming sessions for student retention through activities that involved and incentivized their participation, such as sports tournaments, talks with specialists and professionals, environmental activities, and cultural events like museum nights, among others. Although the period was an internship, the practices carried out served to continue forging knowledge and further professionalizing myself in the IT world.",
   },
   {
     company: "99minutos",
