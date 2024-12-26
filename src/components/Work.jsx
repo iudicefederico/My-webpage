@@ -68,6 +68,7 @@ export default function Work() {
           <WorkItem
             key={idx}
             year={item.year}
+            company={item.company}
             title={item.title}
             duration={item.duration}
             details={item.details}

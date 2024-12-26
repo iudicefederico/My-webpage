@@ -8,6 +8,10 @@ export default function WorkItem(prop) {
             {prop.year}
           </span>
           <span className="text-lg font-semibold text-[#001b5e]">
+            {prop.company}
+          </span>
+          <p> - </p>
+          <span className="text-lg font-semibold text-[#001b5e]">
             {prop.title}
           </span>
           <span className="my-1 text-sm font-normal leading-none text-stone-400">
