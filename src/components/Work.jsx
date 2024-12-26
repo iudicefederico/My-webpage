@@ -2,13 +2,22 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    company: "Aeroterra",
+    company: "Accenture",
     country: "Argentina",
-    year: "february 2024/actual job",
-    title: "Accounting Functions Analyst",
+    year: "october 2024/actual job",
+    title: "Record To Report Analyst",
     duration: "until now",
     details:
-      "Located within the technology sector, the company provides Data-Science consulting and geospatial information services to top-tier companies such as Techint, Siderca, and Pampa Energía. As an Accounting Functions Analyst in the IT field, the role focuses on task automation and business knowledge to develop as a Functional Analyst within the company. The job includes supporting the administrative area and creating solutions to streamline processes.",
+      "Responsible for supporting one of the world‘s leading technology companies, my work includes performing and overseeing bank reconciliations, as well as managing and uploading journal entries for various business units globally. Collaborating with teams in the United States and India, English is the primary language of communication. As a systems engineering student, I am part of a select group specializing in automating financial processes by developing custom solutions using SQL, App Script, macros, and dynamic tables. These tools are rigorously tested to ensure quality before implementation. Leveraging tools such as SAP and Blackline, this role combines technical and strategic skills, supported by continuous training in cutting-edge technologies",
+  },
+  {
+    company: "Aeroterra",
+    country: "Argentina",
+    year: "february 2024/september 2024",
+    title: "Accounting Functions Analyst",
+    duration: "8 months",
+    details:
+      " The company operates in the technology industry and offers Data Science consulting and Geospatial information supply to major clients like Techint, Siderca, and Pampa Energía. As a Functional Accounting Analyst in the IT sector, the job involves automating tasks and gaining business expertise to fulfill the role of Functional Analyst at the company",
   },
   {
     company: "UADE",
